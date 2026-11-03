@@ -40,6 +40,7 @@ export function HeroSection() {
   return (
     <section
       ref={heroRef}
+      id="home"
       className="relative isolate min-h-[88svh] overflow-hidden bg-[#120e0c] text-ivory"
       aria-labelledby="hero-heading"
     >

@@ -61,7 +61,7 @@ export function HeroContent({ project, reducedMotion, contentY, contentOpacity }
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1], delay: 0.82 }}
         >
-          <span>Explore the portfolio</span>
+          <span>EXPLORE THE PORTFOLIO</span>
           <span className="inline-flex transition-transform duration-300 group-hover:translate-x-1" aria-hidden="true">
             <ArrowRight size={14} />
           </span>
@@ -74,7 +74,7 @@ export function HeroContent({ project, reducedMotion, contentY, contentOpacity }
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1], delay: 0.92 }}
         >
-          Discover the studio
+          DISCOVER THE STUDIO
         </motion.a>
       </div>
     </motion.div>

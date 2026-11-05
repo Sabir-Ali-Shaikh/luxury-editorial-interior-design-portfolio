@@ -26,7 +26,7 @@ export function AboutDesignerSection() {
   const headingY = useTransform(smoothProgress, [0, 1], [12, -6]);
 
   return (
-    <section ref={sectionRef} id="about" aria-labelledby="about-title" className="bg-[#f3ebdf] text-[#100e0c]">
+    <section ref={sectionRef} id="about" aria-labelledby="about-title" className="scroll-mt-[6rem] bg-[#f3ebdf] text-[#100e0c]">
       <div className="mx-auto max-w-[var(--container-max)] px-[var(--gutter)] py-14 md:py-16 lg:py-20">
         <div className="grid gap-8 lg:grid-cols-[1.1fr_1fr_1.25fr] lg:items-center lg:gap-8 xl:gap-12">
           <motion.div

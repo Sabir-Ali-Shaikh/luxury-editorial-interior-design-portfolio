@@ -31,7 +31,7 @@ export function PhilosophySection() {
       ref={sectionRef}
       id="philosophy"
       aria-labelledby="philosophy-heading"
-      className="relative overflow-hidden bg-[#440d1b] text-ivory"
+      className="scroll-mt-[6rem] relative overflow-hidden bg-[#440d1b] text-ivory"
     >
       <div className="mx-auto max-w-[var(--container-max)] px-[var(--gutter)] py-12 md:py-16 lg:py-20">
         <div className="grid gap-8 lg:grid-cols-[0.92fr_1.35fr_0.8fr] lg:items-center lg:gap-10 xl:gap-14">

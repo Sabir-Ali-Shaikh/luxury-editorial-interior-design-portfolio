@@ -114,11 +114,7 @@ export function MobileNavigation({ isOpen, onClose }: MobileNavigationProps) {
 
               <motion.a
                 href="#contact"
-                aria-disabled="true"
-                onClick={(event) => {
-                  event.preventDefault();
-                  onClose();
-                }}
+                onClick={onClose}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.55, delay: reduceMotion ? 0 : 0.28, ease: [0.22, 1, 0.36, 1] }}

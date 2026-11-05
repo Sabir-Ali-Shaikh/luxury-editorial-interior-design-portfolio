@@ -41,7 +41,7 @@ export function HeroSection() {
     <section
       ref={heroRef}
       id="home"
-      className="relative isolate min-h-[88svh] overflow-hidden bg-[#120e0c] text-ivory"
+      className="scroll-mt-[6rem] relative isolate min-h-[88svh] overflow-hidden bg-[#120e0c] text-ivory"
       aria-labelledby="hero-heading"
     >
       <HeroBackground

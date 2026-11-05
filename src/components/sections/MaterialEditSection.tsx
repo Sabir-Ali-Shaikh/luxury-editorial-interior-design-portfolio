@@ -16,7 +16,7 @@ export function MaterialEditSection() {
   const introOpacity = useTransform(scrollYProgress, [0, 0.2, 1], [0.8, 1, 1]);
 
   return (
-    <section ref={sectionRef} id="materials" aria-labelledby="materials-title" className="bg-[#f3ebdf] text-[#100e0c]">
+    <section ref={sectionRef} id="materials" aria-labelledby="materials-title" className="scroll-mt-[6rem] bg-[#f3ebdf] text-[#100e0c]">
       <div className="mx-auto max-w-[var(--container-max)] px-[var(--gutter)] py-10 md:py-12 lg:py-14">
         <div className="grid gap-4 md:gap-5 lg:grid-cols-[0.9fr_2.1fr] lg:items-center lg:gap-6 xl:gap-7">
           <motion.div

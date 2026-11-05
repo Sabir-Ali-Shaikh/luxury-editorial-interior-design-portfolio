@@ -102,7 +102,7 @@ export function SelectedWorksSection() {
   const executedCategory = filteredProjects.length === 0 ? "All" : activeCategory;
 
   return (
-    <section ref={sectionRef} id="portfolio" className="relative overflow-hidden bg-[#08281e] text-ivory">
+    <section ref={sectionRef} id="portfolio" className="scroll-mt-[6rem] relative overflow-hidden bg-[#08281e] text-ivory">
       <div className="mx-auto max-w-[var(--container-max)] px-[var(--gutter)] py-14 md:py-16 lg:py-20">
         <motion.div
           className="mb-8 flex flex-col gap-4 md:flex-row md:items-end md:justify-between"
